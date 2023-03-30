@@ -6,15 +6,19 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    
 }
+
+
 body{
-    background-color:#EFD6B3 ;
+    background-color: #8888da;
    
 }
 h1{
     margin: 30px;
     text-align: center;
     font-size:  40px;
+    color:#181879
 }
 
 .container{
@@ -22,6 +26,8 @@ h1{
     width: 70%;
     display:flex;
     flex-wrap: wrap;
+    font-size: 15px;
+    color:#2c2626;
 }
 
 .box-fizz{
@@ -75,7 +81,7 @@ h1{
     border-radius: 5px;
     height: 100px;
     width: 100px;
-    background-color: #be9898;
+    background-color: #ecdcdc;
     text-align: center;
     line-height: 100px;
     vertical-align: middle;
