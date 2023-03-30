@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
-
+body{
+    background-color:#EFD6B3 ;
+   
+}
 h1{
     margin: 30px;
     text-align: center;
@@ -18,6 +25,7 @@ h1{
 }
 
 .box-fizz{
+    border-radius: 15px;
     height: 100px;
     width: 100px;
     background-color: #fde246;
@@ -25,9 +33,21 @@ h1{
     line-height: 100px;
     vertical-align: middle;
     margin: 10px;
+    box-shadow: 4px 7px 10px 0px #666565;
 }
+/*.box-fizz_fizzbuzz{
+    height: 100px;
+    width: 100px;
+    background: rgb(255,205,0);
+    background: linear-gradient(97deg, rgba(255,205,0,1) 0%, rgba(252,195,107,1) 49%, rgba(255,0,0,1) 100%);
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    margin: 10px;
+}*/
 
 .box-buzz{
+    border-radius: 50px;
     height: 100px;
     width: 100px;
     background-color: #fd8f46;
@@ -35,9 +55,11 @@ h1{
     line-height: 100px;
     vertical-align: middle;
     margin: 10px; 
+    box-shadow: 4px 7px 10px 0px #444444;
 }
 
 .box-fizzbuzz{
+    border-radius: 40px;
     height: 100px;
     width: 100px;
     background-color: #fd4646;
@@ -45,9 +67,12 @@ h1{
     line-height: 100px;
     vertical-align: middle;
     margin: 10px; 
+    box-shadow: 4px 7px 10px 0px #444444;
+
 }
 
 .box-index{
+    border-radius: 5px;
     height: 100px;
     width: 100px;
     background-color: #be9898;
@@ -55,4 +80,6 @@ h1{
     line-height: 100px;
     vertical-align: middle;
     margin: 10px; 
+    box-shadow: 4px 7px 10px 0px #797979;
+
 }
