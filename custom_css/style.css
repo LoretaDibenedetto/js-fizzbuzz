@@ -46,3 +46,13 @@ h1{
     vertical-align: middle;
     margin: 10px; 
 }
+
+.box-index{
+    height: 100px;
+    width: 100px;
+    background-color: #be9898;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    margin: 10px; 
+}
