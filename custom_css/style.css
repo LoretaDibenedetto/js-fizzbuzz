@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin: 30px;
+    text-align: center;
+    font-size:  40px;
+}
+
+.container{
+    margin: auto;
+    width: 70%;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.box-fizz{
+    height: 100px;
+    width: 100px;
+    background-color: #fde246;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+.box-buzz{
+    height: 100px;
+    width: 100px;
+    background-color: #fd8f46;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    margin: 10px; 
+}
+
+.box-fizzbuzz{
+    height: 100px;
+    width: 100px;
+    background-color: #fd4646;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    margin: 10px; 
+}

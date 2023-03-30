@@ -1,6 +1,6 @@
 
 //TODO: creare variabili per D.O.M
-
+let boxBizz =;
 
 //creo un ciclo for per iterare nnumeri da 1 a 100
 for(let i = 1; i < 101; i++){
